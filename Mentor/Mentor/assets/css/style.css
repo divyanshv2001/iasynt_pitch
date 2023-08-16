@@ -1106,7 +1106,7 @@ section {
 
 .events .card-body {
   z-index: 10;
-  background: #fff;
+  background: #002850;
   border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1115,6 +1115,7 @@ section {
 }
 
 .events .card-title {
+  color: white;
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
@@ -1126,7 +1127,7 @@ section {
 }
 
 .events .card-text {
-  color: #5e5e5e;
+  color: rgba(255,255,255,0.7);
 }
 
 .events .read-more a {
@@ -1575,4 +1576,8 @@ section {
 .img-logo{
   height: 20px;
   width: auto;
+}
+
+#project{
+  height: 100vh;
 }
