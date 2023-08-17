@@ -1579,5 +1579,21 @@ section {
 }
 
 #project{
-  height: 200vh;
+  height: auto;
+}
+.pcon1{
+  padding: 2px 20px;
+}
+.pcon1 h1{
+  text-align: center;
+  font-weight: 700;
+}
+.plist{
+  padding: 2px 20px;
+}
+.plist,.pcon1 p{
+  font-size: 20px;
+}
+.pcon1 h3{
+  font-weight: 700;
 }
