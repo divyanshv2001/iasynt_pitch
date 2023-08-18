@@ -469,7 +469,10 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
+    background: #002850;
     background: url(/assets/img/IASYNT-Black.jpg) center;
+    background-repeat: no-repeat;
+    background-size:contain ;
     height: 100vh;
   }
 
