@@ -469,11 +469,12 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    background: #002850;
-    background: url(/assets/img/IASYNT-Black.jpg) center;
+    /* background: #002850; */
+    background: url(/assets/img/mobile_back.png) center;
     background-repeat: no-repeat;
-    background-size:contain ;
+    background-size:cover;
     height: 100vh;
+    width: auto;
   }
 
   #hero h1 {
