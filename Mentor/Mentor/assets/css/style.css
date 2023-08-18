@@ -1107,6 +1107,7 @@ section {
 }
 
 .events .card-img img {
+  aspect-ratio: 3/2;
   max-width: 100%;
   transition: all 0.3s ease-in-out;
 }
