@@ -487,34 +487,9 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  height: 50vh;
+  height: 100vh;
   padding: 100px 0;
   overflow: hidden;
-}
-.events{
-  background-color: #43ea80;
-}
-.about{
-  height: 100vh;
-  background-color: #002850;
-  color: white;
-}
-.project{
-  background-color: #002850;
-  color: white;
-  height: auto;
-}
-.trainers{
-  height: 175vh;
-  background-color: #002850;
-  padding-right: 10px;
-  margin-right: 10px;
-  margin-bottom: 0%;
-}
-.trainer-container{
-  padding: 0px;
-  margin: 5px;
-  display: flex;
 }
 
 .section-bg {
@@ -825,7 +800,7 @@ section {
 
 .courses .trainer .trainer-rank {
   font-size: 18px;
-  color: #ffffff;
+  color: #657a6d;
 }
 
 /*--------------------------------------------------------------
@@ -833,14 +808,13 @@ section {
 --------------------------------------------------------------*/
 .trainers .member {
   text-align: center;
-  margin-bottom: 15px;
-  background: #002850;
+  margin-bottom: 20px;
+  background: #fff;
   border: 1px solid #eef0ef;
-  color: white;
 }
 
 .trainers .member img {
-  margin: 0px -1px 0px -1px;
+  margin: -1px -1px 30px -1px;
 }
 
 .trainers .member .member-content {
@@ -855,7 +829,7 @@ section {
 
 .trainers .member span {
   font-style: italic;
-  display: center;
+  display: block;
   font-size: 13px;
 }
 
@@ -863,7 +837,7 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #ffffff;
+  color: #aaaaaa;
 }
 
 .trainers .member .social {
@@ -871,7 +845,7 @@ section {
 }
 
 .trainers .member .social a {
-  color: #18d26e;
+  color: #7e9486;
   transition: 0.3s;
 }
 
@@ -1115,33 +1089,29 @@ section {
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
-  
 }
 
 .events .card-img {
-  width: calc(8px + 60px);
+  width: calc(100% + 60px);
   margin-left: -30px;
   overflow: hidden;
   z-index: 9;
   border-radius: 0;
-  
 }
 
 .events .card-img img {
-  max-width: 80%;
+  max-width: 100%;
   transition: all 0.3s ease-in-out;
-  
 }
 
 .events .card-body {
   z-index: 10;
   background: #002850;
-  border-top: 4px solid #002850;
+  border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
-  
 }
 
 .events .card-title {
@@ -1446,7 +1416,7 @@ section {
 #footer {
   color: #37423b;
   font-size: 14px;
-  background: #000000;
+  background: #eef0ef;
 }
 
 #footer .footer-top {
@@ -1610,8 +1580,6 @@ section {
 
 #project{
   height: auto;
-  background-color: #002850;
-  color: white;
 }
 .pcon1{
   padding: 2px 20px;
@@ -1628,11 +1596,4 @@ section {
 }
 .pcon1 h3{
   font-weight: 700;
-}
-.aks{
-  height: 37px;
-  
-}
-.rb{
-  height: 20px;
 }
