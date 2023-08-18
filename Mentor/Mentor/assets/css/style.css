@@ -816,7 +816,8 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
+  border: 1px solid #4242424a;
+  box-shadow: 2px 2px 2px #0000002e;
 }
 
 .trainers .member img {
@@ -1422,7 +1423,7 @@ section {
 #footer {
   color: #37423b;
   font-size: 14px;
-  background: #eef0ef;
+  background: #002850;
 }
 
 #footer .footer-top {
@@ -1612,4 +1613,10 @@ padding: 15px 10px;
 #event2{
   padding: 15px 10px;
   height: auto;
+}
+.copyright img{
+  
+}
+.trainers{
+  
 }
